@@ -172,15 +172,6 @@ class ViewController: UIViewController {
         }
         g()
         win()
-        if w > 0 && w != turn && w2 == 0{
-            for i in 0...6 {
-                for j in 0...2 {
-                    swap2(a: i*6+j, b: (i+1)*6-j-1)
-                }
-            }
-            g()
-            w = 0
-        }
         r = 1
         changeimg(a: -2)
         changeturn()
